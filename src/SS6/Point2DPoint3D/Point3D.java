@@ -22,7 +22,7 @@ public class Point3D extends Point2D{
         super.setXY(x,y);
         this.z=z;
     }
-    public  double[] GetXYZ(){
+    public  double[] getXYZ(){
         return new double[]{getX(),getY(),getZ()};
     }
 
@@ -32,7 +32,7 @@ public class Point3D extends Point2D{
                 "x="+getX()+
                 "y="+getY()+
                 "z=" + z +
-                "xyz="+GetXYZ()+
+                "xyz="+getXYZ()+
                 '}';
     }
 }
