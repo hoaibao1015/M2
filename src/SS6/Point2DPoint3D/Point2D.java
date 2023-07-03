@@ -37,7 +37,6 @@ public class Point2D {
         arr[1]=y;
         return arr;
     }
-
     @Override
     public String toString() {
         return "Point2D{" +
